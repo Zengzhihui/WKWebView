@@ -13,6 +13,8 @@
 		26B6C9D81DCA03A20073DEF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B6C9D61DCA03A20073DEF6 /* Main.storyboard */; };
 		26B6C9DA1DCA03A20073DEF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B6C9D91DCA03A20073DEF6 /* Assets.xcassets */; };
 		26B6C9DD1DCA03A20073DEF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B6C9DB1DCA03A20073DEF6 /* LaunchScreen.storyboard */; };
+		26B6C9E61DCA049B0073DEF6 /* GZWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B6C9E51DCA049B0073DEF6 /* GZWKWebView.m */; };
+		26B6C9EC1DCA05C90073DEF6 /* UIView+GZExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B6C9EB1DCA05C90073DEF6 /* UIView+GZExtend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		26B6C9D91DCA03A20073DEF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26B6C9DC1DCA03A20073DEF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26B6C9DE1DCA03A20073DEF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B6C9E41DCA049B0073DEF6 /* GZWKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZWKWebView.h; sourceTree = "<group>"; };
+		26B6C9E51DCA049B0073DEF6 /* GZWKWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZWKWebView.m; sourceTree = "<group>"; };
+		26B6C9EA1DCA05C90073DEF6 /* UIView+GZExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GZExtend.h"; sourceTree = "<group>"; };
+		26B6C9EB1DCA05C90073DEF6 /* UIView+GZExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GZExtend.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				26B6C9DB1DCA03A20073DEF6 /* LaunchScreen.storyboard */,
 				26B6C9DE1DCA03A20073DEF6 /* Info.plist */,
 				26B6C9CD1DCA03A20073DEF6 /* Supporting Files */,
+				26B6C9E41DCA049B0073DEF6 /* GZWKWebView.h */,
+				26B6C9E51DCA049B0073DEF6 /* GZWKWebView.m */,
+				26B6C9EA1DCA05C90073DEF6 /* UIView+GZExtend.h */,
+				26B6C9EB1DCA05C90073DEF6 /* UIView+GZExtend.m */,
 			);
 			path = WKWebView;
 			sourceTree = "<group>";
@@ -150,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26B6C9EC1DCA05C90073DEF6 /* UIView+GZExtend.m in Sources */,
+				26B6C9E61DCA049B0073DEF6 /* GZWKWebView.m in Sources */,
 				26B6C9D51DCA03A20073DEF6 /* ViewController.m in Sources */,
 				26B6C9D21DCA03A20073DEF6 /* AppDelegate.m in Sources */,
 				26B6C9CF1DCA03A20073DEF6 /* main.m in Sources */,
