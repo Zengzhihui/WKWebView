@@ -1,3 +1,3 @@
 # WKWebView
- [_webView captureContentImage:^(UIImage *image) {}];
- Use to capture full content image
+### [_webView captureContentImage:^(UIImage *image) {}];
+### Use to capture image of full content. 
