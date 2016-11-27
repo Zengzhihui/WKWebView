@@ -6,11 +6,11 @@
 
 # English
  Convert whole content in WKWebView to one image:
- 1.Make snap view of current content and show above WKWebView. Record current content offset
- 2.Scroll to top, and get each image of each page
- 3.Concat images into one image. Scroll to record content offset and remove snap view in 1
+<p> 1.Make snap view of current content and show above WKWebView. Record current content offset
+<p> 2.Scroll to top, and get each image of each page
+<p> 3.Concat images into one image. Scroll to record content offset and remove snap view in 1
 
 # use
-[_webView captureContentImage:^(UIImage *image) {
+ `[_webView captureContentImage:^(UIImage *image) {
   //TODO：
-}]; 
+  }]; `
